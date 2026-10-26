@@ -4,38 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temesgen Portfolio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Logos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--Googlefont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 <body>
     
 <!--I will change the picture into circular shape-->        
     <header>
-        <figure>
-            <img src="Picture.jpg" alt="Photo of Temesgen" width="260" height="260">
-        </figure>
-        <h1><b>Temesgen</b></h1>
-        <p><i>IT professional building through cybersecurity</i></p>
-    </header>
+       
+    <figure>
+      <img class="my_image" src="Images/Picture.png" alt="Photo of Temesgen">
+    </figure>
+
+
+    <div class="intro">
+        <h1 class="home_h1">Hello!</h1>
+        <p class="tagline"><i>Welcome to my portfolio!</i></p>
+        <p class="welcome">I am Temesgen</p> 
+        <p class="welcome">I'm an IT student building hands-on skills in
+         cybersecurity/IT Administration. Take a look at my projects, learn more about me, or reach
+         out through the links below.</p>
+    </div>
+        
+    </header>    
     <br> <br> <br>
 
 <!--I will change all those listed into horizontally alligned buttons-->
     <main>
-        <nav>
-            <ul>
-                <li><a href="Projects.html" target="_blank">Projects</a></li>
-                <li><a href="About.html" target="_blank">About</a></li>
-                <li><a href="index.html" target="_blank">Home</a></li>
-            </ul>
-        </nav>   
+        
+            <div class="nav_buttons">
+              <a href="Projects.html" target="_blank"><button class="btn" id="P_btn">Projects</button></a>
+              <a href="About.html" target="_blank"><button class="btn" id="A_btn">About</button></a>
+              <a href="index.html" target="_blank"><button class="btn" id="H_btn">Home</button></a>
+            </div>
+                   
     </main> 
    
    <br> <br> <br>
    
 
 <!--I will change the buttons into actual logos-->
-    <footer>
-        <a href="https://www.linkedin.com/in/temesgen-m/?isSelfProfile=true"><button>LinkdIn</button></a>
-        <a href="mailto:temesgenmekone0@gmail.com"><button>Gmail</button></a>
-        <a href="https://github.com/walelgnet-gif"><button>Github</button></a>
+     <footer class="my_logos">
+        <a href="https://www.linkedin.com/in/temesgen-m/?isSelfProfile=true" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:temesgenmekone0@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://github.com/walelgnet-gif" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+        </a>
     </footer>
 
 </body>
