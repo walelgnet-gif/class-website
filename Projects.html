@@ -4,73 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Temesgen's IT and cybersecurity projects, grouped by field.">
-  <title>Projects</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Temesgen | Projects</title>
+
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="page">   
-  <header>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Projects.html">Projects</a></li>
+  <div class="page">
+
+    <header class="page-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Projects.html" aria-current="page">Projects</a></li>
+        </ul>
+      </nav>
+
+      <h1>Projects</h1>
+      <p class="lead">Projects I have done so far.</p>
+    </header>
+
+    <main id="main-content">
+      <section class="project-grid" aria-label="Projects by field">
+
+        <article class="card">
+          <h2>IT support and administration</h2>
+          <div class="project">
+            <h3>Active Directory home lab</h3>
+            <p>Set up a Windows Active Directory environment and joined a computer to the domain.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Networking</h2>
+          <div class="project">
+            <h3>Cisco Packet Tracer labs</h3>
+            <p>Building and testing network setups in Cisco Packet Tracer.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Security operations center</h2>
+          <div class="project">
+            <h3>SIEM tool project</h3>
+            <p>Building a SIEM tool project to practice collecting and reviewing security logs.</p>
+          </div>
+          <div class="project">
+            <h3>Ping sweep detector</h3>
+            <p>A Python tool that monitors a network and detects ping sweeps.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Linux and programming</h2>
+          <div class="project">
+            <h3>Linux and command line</h3>
+            <p>Hands-on practice with the Linux command line from my Linux and Command Line Foundations coursework.</p>
+          </div>
+          <div class="project">
+            <h3>Web and IoT builds</h3>
+            <p>Websites and IoT configuration projects from the Dev/Mission program.</p>
+          </div>
+          
+           
+          
+        </article>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/temesgen-m/?isSelfProfile=true" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:temesgenmekone0@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/walelgnet-gif" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
       </ul>
-    </nav>
-    <h1>Projects</h1>
-  </header>
+    </footer>
 
-  <main>
-    
-    <section>
-        <div>
-            <h2>IT support and Administration</h2>
-              <h3>Active Directory home lab</h3>
-                <p>Set up a Windows Active Directory environment and joined a computer to the domain.</p>
-                <p>Tools: Windows Server, Active Directory</p> 
-        </div>
-      
-  
-
-    
-    <div>
-      <h2>Networking</h2>
-        <h3>Cisco Packet Tracer labs</h3>
-          <p>Building and testing network setups in Cisco Packet Tracer.</p>
-          <p>Tools: Cisco Packet Tracer</p>  
-    </div>
-      
-    
-
-    
-    <div>
-      <h2>Security Operation Center</h2>
-        <h3>SIEM tool project</h3>
-          <p>Building a SIEM tool project to practice collecting and reviewing security logs.</p>
-        <h3>Ping sweep detector</h3>
-          <p>A Python tool that monitors a network and detects ping sweeps.</p>
-          <p>Tools: SIEM, Python, TryHackMe</p>
-    </div>
-
-    <div>
-      <h2>Linux and Programming</h2>
-        <h3>Linux and command line</h3>
-          <p>Hands-on practice with the Linux command line from my Linux and Command Line Foundations coursework.</p>
-        <h3>Web and IoT builds</h3>
-          <p>Websites and IoT configuration projects from the Dev/Mission program.</p>
-          <p>Tools: Linux, HTML, IoT</p>
-    </div>
-  </main>
-
-  <footer>
-    <h2>Connect with me</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/temesgen-m/">LinkedIn</a></li>
-      <li><a href="mailto:temesgenmekone0@gmail.com">Gmail</a></li>
-      <li><a href="https://github.com/walelgnet-gif">GitHub</a></li>
-    </ul>
-  </footer>
   </div>
 </body>
 </html>

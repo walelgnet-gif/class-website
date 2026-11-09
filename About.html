@@ -1,94 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>My Journey | Temesgen</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-    
-    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temesgen's journey from arriving in the US to building a career in IT and cybersecurity.">
+  <title>My Journey | Temesgen</title>
+
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="page">
-   <header>
-    
-    <nav>
+
+    <header class="page-header">
+      <nav class="navbar" aria-label="Main navigation">
         <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="About.html"><li>About</li></a>
-            <a href="Projects.html"><li>Projects</li></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html" aria-current="page">About</a></li>
+          <li><a href="Projects.html">Projects</a></li>
         </ul>
-    </nav>
+      </nav>
 
-    <h1>My Journey</h1>
+      <h1>My Journey</h1>
+      <p class="lead">Every chapter below is a step on the way from arriving in the US to building a career in IT and cybersecurity.</p>
+    </header>
 
-   </header>
-   
-   <main>
-    <section>
-        <h2>From 2025 to today</h2>
-        
-        <div>
+    <main id="main-content">
+
+      <!-- To add a chapter, copy one timeline-item block. The number and the left/right side update by themselves. -->
+      <section>
+        <h2 class="section-title">From 2025 to today</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="chapter">Chapter 1</span>
+              <time datetime="2025">2025</time>
+            </div>
             <h3>Arriving in the US</h3>
-            <time datetime="2025">2025</time>
-              <p>Moved to the US to continue my education and start building a career in IT.</p>
-        </div>
-        
-        
-        <div>
-            <h3>College life in US</h3>
-            <time datetime="2025">2025</time>
-              <p>Began my college journey in the US at CCSF, then joined Campus to major in IT and pursue my associate degree. After one year, I completed key coursework in CompTIA Core 1 and Core 2, IT Essentials, Linux and command line foundations, and spreadsheets and databases.</p>
-        </div>
-        
-        
-         <div>
-            <h3>Training Programs</h3>
-            <time datetime="2026">2026 - present</time>
-              <p>Attended the 12-week Dev/Mission bootcamp, where I worked on web development, IoT configuration, and IT hardware and software troubleshooting. I am currently enrolled in Year Up United, studying network security and support.</p>
-        </div>
-    </section>
-    
-    
-    <section>
-        <div>
-            <h2>Certifications and Achievments</h2>
-              <h3>Certifications</h3>
-                <ul>
-                    <li>CompTIA A+ - September 2026</li>
-                    <li>Google Cybersecurity Certificate - in progress</li>
-                    <li>Zendesk Fundamentals, Udemy - April 2026</li>
-                    <li>Google AI Essentials, Coursera - April 2026</li>
-                    <li>Dev/Mission Certificate of Completion - May 2026</li>
-                    <li>California (Division of Apprenticeship Standards Certificate of Course Completion) - April, 2026</li>
-                </ul>
-        </div>  
-      
-        <div>
-            <h3>Honors and Achievements</h3>
-            <ul>
-                <li>Dean's List at Campus - all four quarters, 4.0 GPA</li>
-                <li>Letter of recogntion form CCSF for serving as a student sentor</li>
+            <p>I moved to the US to continue my education and start building a career in IT. Everything else in this journey started with that move.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="chapter">Chapter 2</span>
+              <time datetime="2025">2025</time>
+            </div>
+            <h3>College life in the US</h3>
+            <p>I began my college journey at CCSF, then joined Campus to major in IT and work toward my associate degree. After one year I had completed key coursework in CompTIA Core 1 and Core 2, IT Essentials, Linux and command line foundations, and spreadsheets and databases.</p>
+            <ul class="tags" aria-label="Skills">
+              <li>CompTIA Core 1 &amp; 2</li>
+              <li>IT Essentials</li>
+              <li>Linux</li>
+              <li>Command line</li>
+              <li>Spreadsheets</li>
+              <li>Databases</li>
             </ul>
-        </div>  
-    </section>
-   </main>
-   
-   <br> <br>
-   <footer>
-     
-        <a href="https://www.linkedin.com/in/temesgen-m/?isSelfProfile=true"><button>LinkdIn</button></a>
-        <a href="mailto:temesgenmekone0@gmail.com"><button>Gmail</button></a>
-        <a href="https://github.com/walelgnet-gif"><button>Github</button></a>
-    
-   </footer>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="chapter">Chapter 3</span>
+              <time datetime="2026">2026</time>
+            </div>
+            <h3>Dev/Mission bootcamp</h3>
+            <p>I attended the 12-week Dev/Mission bootcamp, where I worked on web development, IoT configuration, and IT hardware and software troubleshooting. I finished with a certificate of completion in May 2026.</p>
+            <ul class="tags" aria-label="Skills">
+              <li>Web development</li>
+              <li>IoT configuration</li>
+              <li>Troubleshooting</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item current">
+            <div class="timeline-meta">
+              <span class="chapter">Chapter 4 &middot; Now</span>
+              <time datetime="2026-09">September 2026 - present</time>
+            </div>
+            <h3>Year Up United</h3>
+            <p>I am currently enrolled in Year Up United, studying network security and support. At the same time, I am working toward the Google Cybersecurity Certificate.</p>
+            <ul class="tags" aria-label="Skills">
+              <li>Network security</li>
+              <li>IT support</li>
+              <li>Google Cybersecurity Certificate</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Certifications and achievements</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul class="bullets">
+              <li>CompTIA A+ - September 2026</li>
+              <li>Google Cybersecurity Certificate - in progress</li>
+              <li>Zendesk Fundamentals, Udemy - April 2026</li>
+              <li>Google AI Essentials, Coursera - April 2026</li>
+              <li>Dev/Mission Certificate of Completion - May 2026</li>
+              <li>California Division of Apprenticeship Standards Certificate of Course Completion - April 2026</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Honors and achievements</h3>
+            <ul class="bullets">
+              <li>Dean's List at Campus - all four quarters, 4.0 GPA</li>
+              <li>Letter of recognition from CCSF for serving as a student senator</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/temesgen-m/?isSelfProfile=true" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:temesgenmekone0@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/walelgnet-gif" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+      </ul>
+    </footer>
+
   </div>
 </body>
 </html>
+
+
+
+
+
